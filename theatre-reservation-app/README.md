@@ -44,15 +44,24 @@ npx expo start
 
 ---
 
-# Database
+# Database Setup
+
+1. Εκκίνηση Apache και MySQL μέσω XAMPP.
+
+2. Άνοιγμα phpMyAdmin:
+
+```txt
+http://localhost/phpmyadmin
+```
+
+3. Δημιουργία database:
 
 Εισαγωγή της βάσης δεδομένων στον φάλεκο database από το αρχείο:
 
 ```txt
-database.sql
+theatre_reservation_db
 ```
 
----
 
 # API Configuration
 
