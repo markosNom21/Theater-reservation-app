@@ -68,3 +68,22 @@ frontend/config/api.ts
 export const API_URL = "http://YOUR_IP:5000/api";
 export const AUTH_URL = "http://YOUR_IP:5000/api/auth";
 ```
+
+# Environment Variables
+
+Στον φάκελο backend πρέπει να δημιουργηθεί αρχείο:
+
+```txt
+.env
+```
+
+με τα παρακάτω στοιχεία:
+
+```env
+DB_HOST
+DB_USER
+DB_PASSWORD
+DB_NAME
+JWT_SECRET
+PORT
+```
